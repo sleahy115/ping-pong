@@ -4,8 +4,14 @@ var inputValue = "";
 function pingPong(tbox) {
   var countArray = [];
   for ( var i = 1; i <=tbox; i++) {
-  if (i % 3 === 0) {
+  if (i % 15 === 0) {
+    countArray.push("ping-pong");
+    }
+  else if (i % 3 === 0) {
     countArray.push("ping");
+  }
+  else if (i % 5 === 0) {
+    countArray.push("pong");
     }
   else countArray.push(i)
   }
