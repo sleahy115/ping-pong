@@ -5,9 +5,12 @@
 }
 #num-form{
   color: white;
+  margin-left: 40%;
 }
 #tbox{
   border-color: #008000;
+  height: 25px;
+  width: 150px;
 }
 #submit{
   color: black;
@@ -19,6 +22,11 @@ hr{
   border-style: dashed;;
   border-width: thick;
 }
+img{
+  float: right;
+  margin-right: 10%;
+}
 #output{
   color: white;
+  margin-left: 10%;
 }
