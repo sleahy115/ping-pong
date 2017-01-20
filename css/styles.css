@@ -22,9 +22,19 @@ hr{
   border-style: dashed;;
   border-width: thick;
 }
-img{
+#paddle{
   float: right;
   margin-right: 10%;
+  height: 100px;
+  width:100px;
+
+}
+#paddle-ball{
+  height: 100px;
+  width:100px;
+  float: left;
+  -webkit-transform: rotate(180deg);
+  margin-left: 10%;
 }
 #output{
   color: white;
