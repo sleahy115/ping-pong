@@ -1,12 +1,13 @@
 // back end logic
-// var answerr = [];
 var inputValue = "";
 
 function pingPong(tbox) {
   var countArray = [];
   for ( var i = 1; i <=tbox; i++) {
-   countArray.push(i);
-  //  console.log("the output is" + countArray);
+  if (i % 3 === 0) {
+    countArray.push("ping");
+    }
+  else countArray.push(i)
   }
   return countArray;
 }
@@ -19,7 +20,6 @@ $(document).ready(function() {
    var answerr = pingPong(inputValue);
    answerr.forEach(function(element) {
    $("#output").append("<li>" + element + "<li>");
-  //  countArray = [];
   });
  });
 });
