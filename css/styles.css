@@ -1,0 +1,24 @@
+.jumbotron{
+  background-color: #003300;
+  color: white;
+  text-align: center;
+}
+#num-form{
+  color: white;
+}
+#tbox{
+  border-color: #008000;
+}
+#submit{
+  color: black;
+}
+body{
+  background-color: #003300;
+}
+hr{
+  border-style: dashed;;
+  border-width: thick;
+}
+#output{
+  color: white;
+}

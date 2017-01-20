@@ -17,8 +17,8 @@ _This program will count until a designated number retuning ping or pong of the 
 |output the word ping for all numbers divisible by 3| |3,6...| |ping|
 |check for numbers divisible by 5| |1,2,3,4,5,6,....| |5,10,...|
 |output the word pong for all numbers divisible by 5| |5,10...| |pong|
-|check for numbers divisible by 15| |1,2,3,4,5,6,....| |1,15...|
-|output the word ping-pong for all numbers divisible by 15| |1,15...| |ping-pong|
+|check for numbers divisible by 15| |1,2,3,4,5,6,....| |15,30...|
+|output the word ping-pong for all numbers divisible by 15| |15,30...| |ping-pong|
 
 
 ## Setup/Installation Requirements

@@ -1,6 +1,4 @@
 // back end logic
-var inputValue = "";
-
 function pingPong(tbox) {
   var countArray = [];
   for ( var i = 1; i <=tbox; i++) {
@@ -17,11 +15,12 @@ function pingPong(tbox) {
   }
   return countArray;
 }
+
 // font end logic
 $(document).ready(function() {
  $("#num-form").submit(function(event) {
    event.preventDefault();
-  //  $("#output").empty();
+   $("#output").empty();
    var inputValue = $("#tbox").val();
    var answerr = pingPong(inputValue);
    answerr.forEach(function(element) {
