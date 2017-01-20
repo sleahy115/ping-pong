@@ -13,12 +13,12 @@ _This program will count until a designated number retuning ping or pong of the 
 |Behavior| Input example| Output example|
 |------|--------------|-------------|
 |Input number that the program should count to.|15|1,2,3,4,5,...|
-|check for numbers divisible by 3| |1,2,3,4,5,6,....| |3,6,...|
-|output the word ping for all numbers divisible by 3| |3,6...| |ping|
-|check for numbers divisible by 5| |1,2,3,4,5,6,....| |5,10,...|
-|output the word pong for all numbers divisible by 5| |5,10...| |pong|
-|check for numbers divisible by 15| |1,2,3,4,5,6,....| |15,30...|
-|output the word ping-pong for all numbers divisible by 15| |15,30...| |ping-pong|
+|Check for numbers divisible by 3.|1,2,3...|3,6,...|
+|Output the word ping for all numbers divisible by 3.|3,6... |ping|
+|Check for numbers divisible by 5.|1,2,3...|5,10,...|
+|Output the word pong for all numbers divisible by 5.|5,10...|pong|
+|Check for numbers divisible by 15.|1,2,3....|15,30...|
+|Output the word ping-pong for all numbers divisible by 15.|15,30...|ping-pong|
 
 
 ## Setup/Installation Requirements
