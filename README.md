@@ -1,6 +1,6 @@
 # _Ping-pong_
 
-#### _Counting program that returns ping or pong at designated intervals,01/20/17 _
+#### _Counting program that returns ping or pong at designated intervals,01/20/17_
 
 #### By _**Sarah Leahy**_
 
@@ -11,8 +11,8 @@ _This program will count until a designated number retuning ping or pong of the 
 ## Specifications
 
 |Behavior| Input example| Output example|
-|------||--------------||-------------|
-|Input number that the program should count to.|15||1,2,3,4,5,...|
+|------|--------------|-------------|
+|Input number that the program should count to.|15|1,2,3,4,5,...|
 |check for numbers divisible by 3| |1,2,3,4,5,6,....| |3,6,...|
 |output the word ping for all numbers divisible by 3| |3,6...| |ping|
 |check for numbers divisible by 5| |1,2,3,4,5,6,....| |5,10,...|
@@ -26,10 +26,6 @@ _This program will count until a designated number retuning ping or pong of the 
 * _Clone the ping-pong repository from Git hub_
 * _Open in browser_
 * _The page can also be view via gh-pages at sleahy115@github.io/ping-pong_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Support and contact details
 
