@@ -1,23 +1,25 @@
 // back end logic
 // var answerr = [];
-// var inputValue = "";
+var inputValue = "";
 
-function pingPong(inputValue_) {
+function pingPong(tbox) {
   var countArray = [];
-  for ( var i=1; i<=10; i++) {
+  for ( var i = 1; i <=tbox; i++) {
    countArray.push(i);
   //  console.log("the output is" + countArray);
   }
-return countArray;
+  return countArray;
 }
 // font end logic
 $(document).ready(function() {
- $("form#num-form").submit(function(event) {
+ $("#num-form").submit(function(event) {
    event.preventDefault();
   //  $("#output").empty();
-   var inputValue = $("input#tbox").val();
-   var solution = pingPong(inputValue);
-   $("#output").append("<p>" + solution + "</p>");
+   var inputValue = $("#tbox").val();
+   var answerr = pingPong(inputValue);
+   answerr.forEach(function(element) {
+   $("#output").append("<li>" + element + "<li>");
   //  countArray = [];
+  });
  });
 });
